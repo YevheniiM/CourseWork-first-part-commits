@@ -9,13 +9,16 @@ class Connections:
 
     def get_connections(self, fields):
         http = self.credentials.authorize(httplib2.Http())
+        print(type(http))
         service = discovery.build('people', 'v1', http=http,
                                   discoveryServiceUrl='https://people.googleapis.com/$discovery/rest')
+        print(type(service))
 
         results = service.people().connections().list(
             resourceName='people/me',
             personFields=','.join(fields)
         ).execute()
+        print(type(results))
 
         return results.get('connections', [])
 
@@ -29,10 +32,6 @@ class Connections:
                     'phoneNumbers', 'photos', 'names'
                 ]
         )
-
-        # def fudfsf(person):
-        #     return ....
-
         for person in connections:
 
             names = person.get('names', [])
@@ -44,7 +43,6 @@ class Connections:
             interests = person.get('interests', [])
             phone = person.get('phoneNumbers', [])
             photos = person.get('photos', [])
-
             person_info = dict()
 
             if len(names) > 0:
