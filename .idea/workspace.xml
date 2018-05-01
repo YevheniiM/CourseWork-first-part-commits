@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e6ce0b9a-4ae9-40bc-8b5e-0310f40e7a8b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Official_part" beforeDir="false" afterPath="$PROJECT_DIR$/Official_part" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Official_part" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Template/testing/facebookenv/src/facebook-sdk" beforeDir="false" afterPath="$PROJECT_DIR$/Template/testing/facebookenv/src/facebook-sdk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template/testing/src/facebook-sdk" beforeDir="false" afterPath="$PROJECT_DIR$/Template/testing/src/facebook-sdk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MemorizeThem" beforeDir="false" afterPath="$PROJECT_DIR$/web/MemorizeThem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MemorizeThem" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +27,7 @@
     <leaf />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CourseWork" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,13 +100,12 @@
             <path>
               <item name="Course_Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course_Work" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Course_Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course_Work" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="MemorizeThem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525183037733</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add a whole project folder">
+      <created>1525184055108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1525184055108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -228,10 +239,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2320377" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.70957446" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33404255" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2948362" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33404255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2948362" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -275,6 +286,32 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -289,7 +326,8 @@
     <MESSAGE value="fifth report added" />
     <MESSAGE value="README added" />
     <MESSAGE value="test new pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="test new pycharm" />
+    <MESSAGE value="add a whole project folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a whole project folder" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Official_part/PeopleAPI/main.py">
